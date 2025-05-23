@@ -155,3 +155,12 @@ try: # Bloque para manejar errores
 
 except Exception as e:
     st.error(f"⚠ Ocurrió un error durante la ejecución: {e}")
+
+st.markdown("""
+<hr>
+<div style='text-align: center; font-size: 0.9em; color: gray;'>
+    <p>© 2025 <strong>Kevin_Galindo_Antezana</strong></p>
+    <p>📧 Contacto: <a href="mailto:keds1810@gmail.com">keds1810@gmail.com</a></p>
+    <p>Developed with Python + Streamlit</p>
+    </div>
+""", unsafe_allow_html=True)
